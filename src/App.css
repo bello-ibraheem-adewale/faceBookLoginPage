@@ -2,25 +2,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 
 
 .App {
-  text-align: center;
+  /* text-align: center; */
   width: 370px;
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
-  justify-content: center;
-  height: 650px;
+  justify-content: space-around;
+  /* height: 650px; */
+  height: 100vh;
  
 }
 
-ade{
+h3{
+  font-size: 20px;
+}
+
+.ade{
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* margin-right: 30px; */
+  
 
 }
 
@@ -87,13 +95,14 @@ button{
   margin-top: 20px;
   border: 1px solid blue;
   background-color: green;
+  color: white;
   border-radius: 3px;
   padding-left: 8px;
 }
 .hr{
   margin-top: 20px;
-  width: 340px;
-  height: 3px;
+  width: 250px;
+  height: 2px;
   background-color: gray;
 }
 .for{
@@ -112,7 +121,9 @@ button{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
   }
+  
 }
 
 
