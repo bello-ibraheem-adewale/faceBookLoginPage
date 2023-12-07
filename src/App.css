@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
-  justify-content: center;
+  /* justify-content: center; */
   /* height: 650px; */
   height: 100vh;
  
@@ -40,7 +40,7 @@ h3{
 
 .facebook{
   color: blue;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   font-size: 60px;
 }
 
