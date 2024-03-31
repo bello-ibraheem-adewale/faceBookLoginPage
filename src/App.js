@@ -2,6 +2,9 @@
 import './App.css';
 import Facebook from './conponent/Facebook';
 import Form from './conponent/Form'
+import Render from './conponent/Render';
+
+// import Login from './conponent/Login';
 
 
 function App() {
@@ -10,6 +13,10 @@ function App() {
 
     <Facebook />
     <Form />
+
+    
+    
+    
     
 
    
